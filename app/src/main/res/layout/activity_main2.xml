@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background"
+    tools:context=".Main2Activity"
+    style="@style/AppBaseTheme">
+    <LinearLayout
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.CardView
+            android:clickable="true"
+            android:id="@+id/bankcardId"
+            android:layout_width="160dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp"
+            android:focusable="true"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@color/colorAccent"
+                    android:padding="10dp"
+                    android:src="@drawable/book" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/sizeText2"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/book"/>
+                <View
+                    android:layout_width="182dp"
+                    android:layout_height="4dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/facepdf" />
+                <TextView
+                    android:textSize="@dimen/textSizee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/bookText"
+                    android:padding="5dp"
+                    android:textColor="@android:color/darker_gray"
+                    tools:ignore="SpUsage" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:clickable="true"
+            android:layout_width="160dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp"
+            android:focusable="true">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@color/colorAccent"
+                    android:src="@drawable/doros"
+                    android:padding="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/sizeText2"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/totrial"/>
+                <View
+                    android:layout_width="182dp"
+                    android:layout_height="4dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/facepdf" />
+                <TextView
+                    android:textSize="@dimen/textSizee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/doros"
+                    android:padding="5dp"
+                    android:textColor="@android:color/darker_gray"
+                    tools:ignore="SpUsage" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.CardView
+            android:clickable="true"
+            android:layout_width="160dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp"
+            android:focusable="true">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@color/colorAccent"
+                    android:src="@drawable/exama"
+                    android:padding="10dp"/>
+                <TextView
+                    android:textSize="@dimen/sizeText2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/exama"/>
+                <View
+                    android:layout_width="182dp"
+                    android:layout_height="4dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/facepdf" />
+                <TextView
+                    android:textSize="@dimen/textSizee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/examaText"
+                    android:padding="5dp"
+                    android:textColor="@android:color/darker_gray"
+                    tools:ignore="SpUsage" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:clickable="true"
+            android:layout_width="160dp"
+            android:layout_height="190dp"
+            android:layout_margin="10dp"
+            android:focusable="true"
+            android:onClick="webview1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@color/colorAccent"
+                    android:padding="10dp"
+                    android:src="@drawable/quote" />
+
+                <TextView
+                    android:textSize="@dimen/sizeText2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/quite"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="182dp"
+                    android:layout_height="4dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/facepdf" />
+
+                <TextView
+                    android:textSize="@dimen/textSizee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/quetText"
+                    android:textColor="@android:color/darker_gray"
+                    tools:ignore="SpUsage" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.CardView
+            android:clickable="true"
+            android:layout_width="340dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:focusable="true"
+            android:onClick="youtubeview1">
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@color/colorAccent"
+                    android:src="@drawable/video"
+                    android:padding="10dp"/>
+                <TextView
+                    android:textSize="@dimen/sizeText2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/video"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp"
+                    android:background="@color/facepdf"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    android:textSize="@dimen/textSizee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/videoText"
+                    android:padding="5dp"
+                    android:textColor="@android:color/darker_gray"
+                    tools:ignore="SpUsage" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/website"
+        android:background="@color/toolpar"
+        android:onClick="webview1"
+        />
+
+</LinearLayout>

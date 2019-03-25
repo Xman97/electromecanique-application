@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">الكتروميكانيك</string>
+    <string name="open">open</string>
+    <string name="entre">دخول</string>
+    <string name="book">كتب</string>
+    <string name="totrial">دروس</string>
+    <string name="exama">امتحانات</string>
+    <string name="quite">نصائح</string>
+    <string name="video">مقاطع فيديوا</string>
+    <string name="bookText">مجموعة من الكتب المفيدة /n تساعدك في فهم الفصل الدراسي</string>
+    <string name="doros">دروس وملخصات للفصل الدراسي</string>
+    <string name="examaText">امتحانات وحلولها من كافة الجامعات</string>
+    <string name="quetText">نصائح لتمكن من اجتياز الفصل الدراسي</string>
+    <string name="videoText">فيديوات مختارة لالب مواد الفصل الدراسي</string>
+    <string name="electroText">خاص بطلبة السنة الثانية فقط</string>
+    <string name="view_pdf">View PDF</string>
+
+    <string name="action_settings">الاعدادات</string>
+    <string name="title_activity_pdf">PDFActivity</string>
+
+    <string name="bookandexama">كتب وملخصات</string>
+
+    <string name="thumbnail_image_view_desc">Youtube Video thumbnail image view</string>
+    <string name="website">موقع الطالب</string>
+
+    <string-array name="video_id_array">
+        <item>bXutKPT0X98</item>
+        <item>QKhy1JsdiUo</item>
+        <item>rLqlq6Su7q8</item>
+        <item>mgZw-hzya2A</item>
+        <item>sBir-EOYOgE</item>
+        <item>IL-eK-FzPpk</item>
+        <item>RrSjZU2PVI0</item>
+        <item>Z05fP_Al3c4</item>
+        <item>OCzYsIKhb-k</item>
+        <item>f7CyRagZ-t8</item>
+        <item>Xeu6E3KMTg4</item>
+        <item>5ppzxUuh_rQ</item>
+        <item>lJ9NpeQ9y2E</item>
+        <item>ANlCjZY23XU</item>
+        <item>AbWQVkuJqRM</item>
+        <item>zau3XSq0h2Y</item>
+        <item>j6xVMNCNKkk</item>
+        <item>Q1KbKkjCDF0</item>
+        <item>jEN8NjLa_t4</item>
+        <item>rR1ig5b9pu0</item>
+        <item>aYlfxpjKp0E</item>
+        <item>0KrKZXPM9Zc</item>
+        <item>fnjcmetUX5Q</item>
+        <item>ObwHE6_WB8Y</item>
+        <item>QEf_AsjMZ00</item>
+        <item>svzHDs38frw</item>
+    </string-array>
+    <string name="messageBeginApp">dowstoreapp top store for android</string>
+    <string name="home">الرئيسية</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="150dp"
+    android:layout_height="190dp"
+    android:layout_margin="10dp"
+    android:focusable="true"
+    android:layout_marginTop="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+    <ImageView
+       android:id="@+id/pdfImage"
+       android:layout_width="64dp"
+       android:layout_height="64dp"
+       android:background="@color/colorAccent"
+       android:padding="10dp"
+       android:src="@drawable/pdf_icon" />
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textStyle="bold"
+      android:textSize="@dimen/sizeText1"
+      android:layout_marginTop="10dp"
+      android:text="pdf"/>
+    <View
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:background="@color/white"
+      android:layout_margin="10dp"/>
+   <TextView
+      android:id="@+id/nameTxt"
+      android:textSize="@dimen/sizeText1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:text="Name"
+      android:padding="5dp"
+      android:textColor="@android:color/darker_gray"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_margin="1dp"
+            android:background="@color/facepdf" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>

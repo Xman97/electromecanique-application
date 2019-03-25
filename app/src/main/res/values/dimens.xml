@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sizeText0">5sp</dimen>
+    <dimen name="sizeText1">10sp</dimen>
+    <dimen name="sizeText2">20sp</dimen>
+    <dimen name="sizeText3">25sp</dimen>
+    <dimen name="sizeText4">30sp</dimen>
+    <dimen name="textSizee">15sp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+</resources>
