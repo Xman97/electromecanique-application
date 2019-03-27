@@ -7,5 +7,5 @@ package com.abdo.electromecanique.video;
 public class Constants {
 
     //youtube developer API Key
-    public static String DEVELOPER_KEY = "AIzaSyAdNiS-FUgaTIL3hCw01BE7wplxdm6ojs0";
+    public static String DEVELOPER_KEY = "xxxxxxxxxx-cvcxxxxxxxxxxxxxx";
 }
